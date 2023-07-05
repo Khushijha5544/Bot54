@@ -4,7 +4,7 @@ from pyrogram.types import Message
 
 from SankiMusic.utilities.config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
 from SankiMusic.utilities.strings import get_command
-from SankiMusic import bot
+from SankiMusic import app
 from SankiMusic.modules.core.call import Kaal
 from SankiMusic.modules.utils.sys import bot_sys_stats
 from SankiMusic.modules.main.decorators.language import language
